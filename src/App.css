@@ -1,0 +1,68 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.mybody{
+ width: 100vw;
+ height: 100vh;
+  background: #212529;
+  color: #f8f9fa;
+}
+
+
+
+p{
+color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1.3rem 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.newform{
+  height: 50px;
+  font-size: 20px;
+  background: #6c757d;
+  color: #f8f9fa;
+}
+
+
+
+.newform:focus{
+  height: 50px;
+  font-size: 20px;
+  background: #6c757d;
+  color: #f8f9fa;
+}
+
+textarea::placeholder{
+  color: #f8f9fa !important;
+}
+
+textarea{
+  resize: none;
+margin-top: 1.3rem;
+background: #212529 !important;
+color: #f8f9fa !important;
+}
+.text{
+  color: white;
+}
+
+.drag{
+  cursor: grab;
+  transition: all 1s;
+}
+table{
+  margin-top: 10px;
+}
+
+
